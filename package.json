@@ -1,0 +1,24 @@
+{
+  "name": "webpack",
+  "version": "1.0.0",
+  "description": "webpack 5 course",
+  "keywords": [
+    "webpack",
+    "js"
+  ],
+  "license": "ISC",
+  "author": "Teslo",
+  "type": "commonjs",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.29.0",
+    "@babel/plugin-transform-modules-commonjs": "^7.28.6",
+    "@babel/preset-env": "^7.29.0",
+    "babel-loader": "^10.1.1",
+    "webpack": "^5.105.4",
+    "webpack-cli": "^6.0.1"
+  }
+}
