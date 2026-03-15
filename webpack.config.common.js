@@ -6,7 +6,7 @@ const { resolve } = require("node:dns");
 
 module.exports = {
   context: path.resolve(__dirname, "src"), // Устанавливаем контекст для входных файлов
-  entry: "./index.ts", // Точка входа для вашего приложения
+  entry: "./index.tsx", // Точка входа для вашего приложения
   output: {
     // Настройки для выходного файла
     filename: "[name].[contenthash].js",
